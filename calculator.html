@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+</head>
+<body bgcolor="#BBDDFF" align="center">
+       
+        <form name="calculator">
+            <h2><input type="textarea" name="ans" value=""></h2>
+        
+            <h2>
+                <input type="button"  value="  1  " onclick="document.calculator.ans.value+='1'">
+                <input type="button"  value="  2  " onclick="document.calculator.ans.value+='2'"> 
+                <input type="button"  value="  3  " onclick="document.calculator.ans.value+='3'"> 
+                <input type="button"  value="   +   " onclick="document.calculator.ans.value+='+'">  
+            </h2>
+            <h2>
+                <input type="button"  value="  4  " onclick="document.calculator.ans.value+='4'">
+                <input type="button"  value="  5  " onclick="document.calculator.ans.value+='5'"> 
+                <input type="button"  value="  6  " onclick="document.calculator.ans.value+='6'"> 
+                <input type="button"  value="    -   " onclick="document.calculator.ans.value+='-'">  
+            </h2>
+            <h2>
+                <input type="button"  value="  7  " onclick="document.calculator.ans.value+='4'">
+                <input type="button"  value="  8  " onclick="document.calculator.ans.value+='5'"> 
+                <input type="button"  value="  9  " onclick="document.calculator.ans.value+='6'"> 
+                <input type="button"  value="    *   " onclick="document.calculator.ans.value+='*'">  
+            </h2>
+            <h2>
+                <input type="button"  value="  c  " onclick="document.calculator.ans.value='c'">
+                <input type="button"  value="  0  " onclick="document.calculator.ans.value+='5'"> 
+                <input type="button"  value="  .  " onclick="document.calculator.ans.value+='6'"> 
+                <input type="button"  value="    =   " onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">  
+            </h2>
+      
+        
+
+        </form>    
+</body>
+</html>
